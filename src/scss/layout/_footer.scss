@@ -3,4 +3,32 @@
     color: lightgreen;
     padding-top: 40px;
     text-align: start;
+
+    & p {
+        color: lightgreen;
+    }
+
+    & h2 {
+        color: black;
+    }
+
+    & h3 {
+        color: black;
+    }
+}
+
+.button {
+    border-radius: 20%;
+    background: white;
+    color: aquamarine;
+    border-bottom: solid green;
+}
+
+.main22 {
+    width: 300px;
+    display: grid;
+}
+
+.main2 {
+    width: 100%;
 }
