@@ -1,5 +1,5 @@
 main {
-  // font-family: $font-main;
+  font-family: $font-main;
 }
 
 .imagecover {
@@ -49,9 +49,12 @@ main {
 
   & h4 {
     color: $color-primary;
+    font-size: 14px;
   }
 
-  & h2 {}
+  & h2 {
+    font-size: 22px;
+  }
 
   & p {
     margin: 10px 0 42px;
@@ -64,6 +67,7 @@ main {
     letter-spacing: normal;
     text-align: left;
     text-decoration: none;
+
   }
 
   & button {
@@ -76,6 +80,7 @@ main {
     color: $color-primary;
     background: white;
     font-size: 20px;
+    padding-bottom: 20px;
 
   }
 }
@@ -96,6 +101,23 @@ main {
     background: $color-primary;
     color: white;
   }
+
+  & p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.buttonE {
+  padding-bottom: 23px;
+  padding-top: 12px;
 }
 
 .containerbox {
