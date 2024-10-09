@@ -1,34 +1,32 @@
-.foot {
-    background: white;
-    color: lightgreen;
-    padding-top: 40px;
-    text-align: start;
+.footer {
+    background: #4a4a4a;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 
-    & p {
-        color: lightgreen;
+    & a {
+        width: 38.2px;
+        height: 38.2px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -72px;
     }
 
-    & h2 {
-        color: black;
+    & div {}
+
+    &div ul {
+        display: flex;
+        flex-direction: column;
     }
 
-    & h3 {
-        color: black;
-    }
-}
-
-.button {
-    border-radius: 20%;
-    background: white;
-    color: aquamarine;
-    border-bottom: solid green;
-}
-
-.main22 {
-    width: 300px;
-    display: grid;
-}
-
-.main2 {
-    width: 100%;
+    & p {}
 }
