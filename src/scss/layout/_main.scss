@@ -80,7 +80,7 @@ main {
     color: $color-primary;
     background: white;
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 
   }
 }
@@ -106,12 +106,15 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
+    color: grey;
   }
 
   & h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
   }
 }
 
@@ -128,4 +131,118 @@ main {
   }
 
   & p {}
+
+
+}
+
+@media (min-width: 768px) {
+  .box3 {
+    background: $color-terciary;
+
+    & div {
+      display: flex;
+      justify-content: space-between;
+      /* tres columnas */
+    }
+
+    & button {
+      width: 184px;
+      height: 47.3px;
+      border-radius: 22.5px;
+      background: $color-primary;
+      color: white;
+
+    }
+
+    & p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+      color: grey;
+    }
+
+    & h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+    }
+  }
+
+  .buttonE {
+    padding-bottom: 23px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: last baseline;
+  }
+
+  .containerbox {
+    & img {
+      width: 114px;
+      height: 124.1px;
+      border-radius: 50%;
+    }
+
+    & p {}
+
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .box3 {
+    background: $color-terciary;
+
+    & div {
+      display: flex;
+      justify-content: space-between;
+      /* tres columnas */
+    }
+
+    & button {
+      width: 184px;
+      height: 47.3px;
+      border-radius: 22.5px;
+      background: $color-primary;
+      color: white;
+
+    }
+
+    & p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+      color: grey;
+    }
+
+    & h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20px;
+    }
+  }
+
+  .buttonE {
+    padding-bottom: 23px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: last baseline;
+  }
+
+  .containerbox {
+    & img {
+      width: 114px;
+      height: 124.1px;
+      border-radius: 50%;
+    }
+
+    & p {}
+
+
+  }
+
 }
